@@ -1,0 +1,100 @@
+body{
+  margin: 0px;
+  text-align: center;
+}
+a{
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+.ilk-gorseller{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+}
+.ilk-gorseller ul{
+  text-align: center;
+}
+.ilk-gorseller li {
+  display: inline;
+}
+.images{
+  margin-left: 1500px;
+}
+.images a:hover{
+  border-bottom: 1px solid #5f6368;
+}
+.gmail a:hover{
+  border-bottom: 1px solid #5f6368;
+}
+.img1 img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.img2 a img{
+  width: 15px;
+  margin-bottom: 40px;
+}
+.boxs ul li a{
+  margin-right: 10px;
+}
+ul li{
+  list-style-type: none;
+  text-decoration: none;
+}
+.google-photo{
+  margin-top: 150px;
+}
+.search-bar img{
+  position: absolute;
+  top: 337px;
+  left: 1170px;
+  height: 25px;
+}
+i{
+  position: absolute;
+  top: 342px;
+  left: 730px;
+  height: 25px;
+}
+.search-bar input{
+  width: 480px;
+  height: 25px;
+  border: none;
+  box-shadow: #f2f2f2 3px 3px ;
+  border-radius: 15px;
+}
+.search-bar button{
+  height: 36px;
+  color: #5f6368;
+  font-size: 14px;
+  margin: 5px;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: #f2f2f2 2px 2px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  position: fixed; /* Sabit konumlandırma */
+  bottom: 0; /* Sayfanın altına sabitler */
+  left: 0; /* Sol kenara sabitler */
+  width: 100%; /* Tam genişlik */
+  background-color: #f2f2f2; /* Arka plan rengi */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Liste elemanlarını ortalar */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box li{
+  display: inline;
+  margin-right: 20px;
+}
+
+
